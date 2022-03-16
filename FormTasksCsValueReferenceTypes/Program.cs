@@ -140,9 +140,14 @@ namespace FormTasksCsValueReferenceTypes
             //Console.WriteLine(countAnswer);
             #endregion
 
+            #region Form-Task7-Addition
+            //int[] numArray = { 22, 33, 523, 4534, 15, 27, 39 };
+            //int result = IndexOfNumber(numArray, 15);
+            //Console.WriteLine(result);
+            #endregion
         }
 
-        #region Form-Task5
+
         //Gonderilmis integer deyerin cut olub-olmadigini qaytaran metod
 
         static bool IsEvenNumber(int num)
@@ -156,9 +161,9 @@ namespace FormTasksCsValueReferenceTypes
                 return false;
             }
         }
-        #endregion
+        
 
-        #region Form-Task6
+        
         //Gonderilmis massivin icerisinde nece ededin cut oldugunu tapan metod
 
         static int CountOfEvenNumbers(int[] numbers)
@@ -173,6 +178,21 @@ namespace FormTasksCsValueReferenceTypes
             }
             return count;
         }
-        #endregion
+        
+
+        
+        //Massivden gonderilmis ededin indeksini tapan metod
+
+        static int IndexOfNumber(int[] numbers, int num)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if(num == numbers[i])
+                { return i;
+                } 
+            }
+            return -1;
+        }
+        
     }
 }
