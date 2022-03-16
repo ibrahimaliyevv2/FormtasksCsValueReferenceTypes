@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormTasksCsValueReferenceTypes", "FormTasksCsValueReferenceTypes\FormTasksCsValueReferenceTypes.csproj", "{A030EE81-EB7C-4BBB-8C1B-1D32D9BADBBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A030EE81-EB7C-4BBB-8C1B-1D32D9BADBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A030EE81-EB7C-4BBB-8C1B-1D32D9BADBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A030EE81-EB7C-4BBB-8C1B-1D32D9BADBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A030EE81-EB7C-4BBB-8C1B-1D32D9BADBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F2D35EF-D47A-4845-96B8-34A87C27D52D}
+	EndGlobalSection
+EndGlobal
