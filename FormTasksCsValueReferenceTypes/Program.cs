@@ -89,7 +89,7 @@ namespace FormTasksCsValueReferenceTypes
             //int size = Convert.ToInt32(Console.ReadLine());
             //int count = 0;
             //int[] numbers = new int[size];
-            
+
             //for (int i = 0; i < size; i++)
             //{
             //    Console.WriteLine((i+1)+"-ci elementi daxil edin:");
@@ -114,7 +114,7 @@ namespace FormTasksCsValueReferenceTypes
             //        newNumbers[j] = numbers[i];
             //        j++;
             //    }
-                
+
             //}
 
             //Console.WriteLine("Yeni massivdeki elementler:");
@@ -124,8 +124,52 @@ namespace FormTasksCsValueReferenceTypes
             //}
             #endregion
 
+            #region Form-Task5-Addition
+
+
+            //var result = IsEvenNumber(123714122);
+            //Console.WriteLine(result);
+
+
+            #endregion
+
+            #region Form-Task6-Addition
+            //int[] numArray = { 21, 22, 432, 123, 34452, 34311 };
+
+            //int countAnswer = CountOfEvenNumbers(numArray);
+            //Console.WriteLine(countAnswer);
+            #endregion
 
         }
 
+        #region Form-Task5
+        //Gonderilmis integer deyerin cut olub-olmadigini qaytaran metod
+
+        static bool IsEvenNumber(int num)
+        {
+            if (num % 2 == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+        #endregion
+
+        #region Form-Task6
+        //Gonderilmis massivin icerisinde nece ededin cut oldugunu tapan metod
+
+        static int CountOfEvenNumbers(int[] numbers)
+        {
+            int count = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+        #endregion
     }
 }
