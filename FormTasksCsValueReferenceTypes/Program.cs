@@ -1,5 +1,5 @@
 ﻿using System;
-
+//16.03.2022
 namespace FormTasksCsValueReferenceTypes
 {
     class Program
@@ -151,7 +151,10 @@ namespace FormTasksCsValueReferenceTypes
             {
                 return true;
             }
-            return false;
+            else
+            {
+                return false;
+            }
         }
         #endregion
 
